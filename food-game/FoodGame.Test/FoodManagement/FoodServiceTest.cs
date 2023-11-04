@@ -1,5 +1,5 @@
-using FoodGame.FoodManagement.Models;
-using FoodGame.FoodManagement.Services;
+using FoodGame.Features.Common.Data.Models;
+using FoodGame.Features.FoodManagement.Services;
 
 namespace FoodGameTest.FoodManagement;
 
@@ -9,8 +9,8 @@ public class FoodServiceTest
     [Fact]
     public void ShouldReturnAFood()
     {
-        IFoodService foodService = new FoodService();
+        IFoodService foodService = new FoodService(null);
         
-        Assert.IsType<Food>(foodService.GetFoods()[0]);
+        Assert.IsType<Food>(foodService.GetFoods().ToList()[0]);
     }
 }
