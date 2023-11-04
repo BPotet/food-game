@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodGame", "FoodGame\FoodGame.csproj", "{90E6DFC2-67C1-49B6-8E1A-BF0E6BBAFD08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodGameTest", "FoodGameTest\FoodGameTest.csproj", "{3A61C48D-60B6-45A6-BEB7-98E66C4AFA39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodGame.Test", "FoodGame.Test\FoodGame.Test.csproj", "{3A61C48D-60B6-45A6-BEB7-98E66C4AFA39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

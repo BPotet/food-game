@@ -2,13 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>FoodGameTest</RootNamespace>
+        <RootNamespace>FoodGame.Test</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
-        <AssemblyName>FoodGameTest</AssemblyName>
+        <PackageId>FoodGame.Test</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
