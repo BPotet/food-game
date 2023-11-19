@@ -1,4 +1,4 @@
-﻿using FoodGame.FoodManagement.Services;
+﻿using FoodGame.Features.FoodManagement.Services;
 
 namespace FoodGame.Configuration;
 

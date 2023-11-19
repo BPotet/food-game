@@ -1,4 +1,7 @@
+using System.Configuration;
 using FoodGame.Configuration;
+using FoodGame.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.RegisterServices();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection") ?? string.Empty));
 
 builder.Services.AddSwaggerGen(c =>
 {

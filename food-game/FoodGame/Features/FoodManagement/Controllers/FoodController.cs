@@ -1,8 +1,8 @@
-using FoodGame.FoodManagement.Models;
-using FoodGame.FoodManagement.Services;
+using FoodGame.Features.Common.Data.Models;
+using FoodGame.Features.FoodManagement.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FoodGame.FoodManagement.Controllers;
+namespace FoodGame.Features.FoodManagement.Controllers;
 
 [ApiController]
 [Route("food")]
